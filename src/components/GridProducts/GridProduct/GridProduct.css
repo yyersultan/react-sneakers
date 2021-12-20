@@ -1,0 +1,105 @@
+.sn_grid_mode {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 1190px;
+    padding: 20px;
+    border: 1px solid #eee8e8;
+    margin-bottom: 20px;
+    transition: all .3s ease;
+}
+
+.sn_grid_mode:hover {
+    box-shadow: 5px 5px 5px 5px  #eee8e8;
+
+}
+
+.sn_image {
+    width: 200px;
+    height: 300px;
+    text-decoration: none;
+
+}
+
+.sn_price {
+    margin-bottom: 20px;
+    text-decoration: none;
+
+}
+
+.sn_size_text {
+    color: #979191;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.sn_size_btns {
+    display: flex;
+    margin-top: 8px;
+    text-decoration: none;
+
+}
+.sn_size_btns > button {
+    padding: 4px;
+    background-color: #fff;
+    outline: none;
+    margin-right: 7px;
+    border: 1px solid #b9b1b1;
+    text-decoration: none;
+
+}
+
+.sn_cart_count {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    text-decoration: none;
+
+}
+
+.sn_count_btn {
+    display: flex;
+    text-decoration: none;
+    
+}
+.sn_count_btn > button{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #d4cece;
+    background-color: #f3f3f3;
+    text-decoration: none;
+
+}
+
+.sn_count_btn input {
+    width: 30px;
+    background-color: #f3f3f3;
+    border: 1px solid #d4cece;
+    text-decoration: none;
+
+}
+
+.sn_addToCart {
+    margin-left: 30px;
+    text-decoration: none;
+
+
+}
+
+.sn_addToCart > button {
+    padding: 7px 13px;
+    border: 1px solid #112;
+    color: #fff;
+    background-color: #112;
+    text-decoration: none;
+
+}
+.in_cart_btn {
+    background-color: #112;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    text-decoration: none;
+
+}

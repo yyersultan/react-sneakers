@@ -1,0 +1,22 @@
+.nav_bottom {
+    
+    background-color: black;
+}
+.nav_links{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.nav_links > i {
+    color: #fff;
+}
+
+.nav_links:first-child{
+    margin-left: 120px;
+}
+
+.nav_links:last-child{
+    margin-right: 100px;
+}   

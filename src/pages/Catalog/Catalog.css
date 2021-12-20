@@ -1,0 +1,12 @@
+.filters {
+    width: 70%;
+}
+
+.catalog_body {
+    margin-top: 100px;
+    width: 95%;
+    padding: 0 48px;
+    display: flex;
+    justify-content: space-between;
+    
+}

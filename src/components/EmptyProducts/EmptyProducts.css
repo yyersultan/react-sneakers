@@ -1,0 +1,19 @@
+.EmptyProducts {
+    width:80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.EmptyProducts > h2 {
+    margin-bottom: 30px;
+}
+.EmptyProducts > div{
+    color: #999;
+}
+.fa-times-circle {
+    color: rgb(216, 216, 216);
+    font-size: 150px;
+    margin-bottom: 30px;
+}

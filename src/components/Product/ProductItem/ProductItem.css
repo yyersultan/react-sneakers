@@ -1,0 +1,88 @@
+.sneaker_block {
+    border: 1px solid #eee8e8;
+    width: 350px;
+    padding: 20px;
+    transition: all .44s ease;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.sneaker_block:hover {
+    box-shadow: 5px 10px 8px  #b9b1b1;
+} 
+
+.sneaker_block:hover .sn_card {
+    background-color: #999;
+    
+}
+
+.sneaker_block:hover .fas{
+    color: #fff;
+    background-color: #999;
+}
+
+
+.sneaker_block img {
+    width: 360px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sn_block_title {
+    margin-top: 20px;
+    width: 380px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.sn_count_type {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.sn_count {
+    width: 120px;
+    color: rgb(7, 163, 7);
+    font-size: 13px;
+    margin-left: 20px;
+    border-bottom: 1px dotted green;
+} 
+.sn_type {
+    color: #999;
+    font-size: 14px;
+}
+
+.sn_block_footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sn_card {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #eee8e8;
+    transition: all .44s ease;
+    
+}
+
+.fa-cart-arrow-down{
+    color: #999;
+    transition: all .44s ease;
+}
+.fa-check {
+    
+    color: green;
+
+}

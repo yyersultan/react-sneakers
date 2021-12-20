@@ -1,0 +1,33 @@
+/* CONTENT HEAD */
+
+.content_head {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 48px;
+    width: 95%;
+    margin: 70px 0 30px 0;
+}
+
+.content_head > div{
+    font-size: 22px;
+    font-weight: 650;
+}
+
+.content_navs {
+    display: flex;
+}
+.content_navs > div {
+    cursor: pointer;
+    font-size: 18px;
+    color: #999;
+    margin-right: 15px;
+    transition: all .4s ease-in-out;
+}
+
+.content_navs > div:hover{
+    color: #333;
+}
+
+.content_navs > div:last-child{
+    margin-right: 0;
+}

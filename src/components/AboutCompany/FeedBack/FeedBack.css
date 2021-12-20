@@ -1,0 +1,71 @@
+/* OTZYVY  */
+
+.otzyvy {
+    
+    
+    margin-top: 50px;
+    width: 95%;
+    padding: 40px 48px;
+    border: 1px solid #d4cece;
+    
+}
+
+.otzyvy_header{
+    
+    display: flex;
+    justify-content: space-between;
+} 
+
+.write_otzyv {
+    display: flex;
+    
+}
+
+.write_otzyv > div{
+    margin-left: 10px;
+    color: #999;
+}
+
+.otzyvy_title {
+    color: #112;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.otzyvy_body {
+    width: 80%;
+    margin-top: 30px;
+    margin: 10px auto;
+
+}
+
+.otzyvy_writer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.writer_info{
+    display: flex;
+    align-items: center;
+}
+
+.person_img {
+    margin-right: 20px;
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.rating_star > img{
+    width: 30px;
+    height: 30px;
+}
+
+.otzyv_text {
+    margin-top: 20px;
+    color: #696363;
+    
+}

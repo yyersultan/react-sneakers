@@ -1,0 +1,11 @@
+
+
+/* CONTAINER */
+.container {
+    margin-top: 50px;
+    width: 95%;
+    padding: 0 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

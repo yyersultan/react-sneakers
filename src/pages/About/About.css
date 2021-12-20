@@ -1,0 +1,36 @@
+.About{
+    width: 95%;
+    padding: 0 48px;
+    
+}
+.About_header {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.About_content > div{
+    width: 1400px;
+    margin-bottom: 30px;    
+    color: #777;
+}
+
+ol{
+    list-style-type:square
+}
+
+.About_UL_list > li {
+    color: #777 !important;
+    margin-bottom: 13px;
+    font-size: 17px;   
+}
+.About_Image_blocks {
+    width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.About_Image_blocks > img {
+    width: 600px;
+    height: 400px;
+    margin-bottom: 20px;
+}
